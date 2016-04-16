@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Week5Day1HW1">
+  <test name="Week5Day1" preserve-order="true">
+    <classes>
+      <class name="week5Day1HW.Test1"/>
+      <class name="week5Day1HW.Test2"/>
+      <class name="week5Day1HW.Test3"/>
+      <class name="week5Day1HW.Test4"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Week5Day1Test2" parallel="methods" thread-count="6" >
+  	<classes> 
+  	  <class name="week5Day1HW.Test5"/>
+      <class name="week5Day1HW.Test6"/>  	  
+  	  <class name="week5Day1HW.Test7"/>
+      <class name="week5Day1HW.Test8"/>
+      <class name="week5Day1HW.Test9"/>
+      <class name="week5Day1HW.Test10"/>
+      </classes>   
+  </test>
+</suite> <!-- Default suite -->

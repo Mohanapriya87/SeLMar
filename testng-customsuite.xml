@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenTapsWrapper">
+  <test name="OpenTapstest" thread-count="2">
+    <classes>
+      <class name="openTaps.openTapsWrapper"/>
+      <class name="openTaps.CreateLead"/>
+      <class name="openTaps.Editlead"/>
+      <class name="openTaps.Mergelead"/>
+      <class name="openTaps.deleteLead"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
